@@ -1,0 +1,9 @@
+package com.javarush.test.level24.lesson02.home01;
+
+/**
+ * Created by Andrey on 04.04.2016.
+ */
+public class UnsupportedInterfaceMarkerException extends Exception {
+    public UnsupportedInterfaceMarkerException() {
+    }
+}

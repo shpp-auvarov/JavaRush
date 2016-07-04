@@ -35,6 +35,8 @@ import java.util.TreeMap;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
+        args = new String[1];
+        args[0] = "span";
         String tag = "<" + args[0];
         String tagEnd = "</" + args[0] + ">";
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
